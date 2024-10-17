@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan </title>
+</head>
+<body>
+    <h1 style="text-align: center;">Form Pemesanan Barang</h1><hr>
+    <div class="container" style="display: grid;grid-template-columns: 1fr 1fr;">
+    <div class="left">
+        <form method="post" action="link.html">
+            <img src="c:\Users\Lenovo\Pictures\download (1).jpg" alt="LOGO">
+            <input type="file" name="logo" id="logo">
+        </div>
+        <div class="right">
+            <label for="title">
+               Title: Baju Distro Pria 
+            </label>
+            <br><br>
+            <label for="Deskripsi">
+                Deskripsi: 
+            </label>
+            <textarea name="Deskripsi" id="Deskripsi" maxlength="500" cols="50" rows="5">Baju distro dengan bahan katun sehingga ketika dipakai terasa nyaman</textarea>
+            <br><br>
+            <label for="Account Number">Account Number: 987-654-321-0</label>
+            <br><br>
+            <label for="BANK">BANK:</label>
+            <select name="BANK" id="BANK">
+                <option value="BNI">BNI</option>
+                <option value="BRI">BRI</option>
+                <option value="BCA">BCA</option>
+                <option value="BTN">BTN</option>
+            </select>
+            <br><br>
+            <label for="Account Holder">Account Holder:</label>
+            <textarea name="Account Holder" id="Account Holder"></textarea>
+            <br><br>
+            <label for="Transaction">Transaction:</label>
+            <select name="Transaction" id="Transaction">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <p style="margin-left: 70px;">*If you select 3 items, select 3 are also listed</p>
+            <br>
+            <input type="checkbox" name="Mobile Phone" id="Mobile Phone" style="margin-left: 70px;">Send to mobile phone
+            <br>
+            <input type="checkbox" name="Email" id="Email" style="margin-left: 70px;">Send to Email
+            <br>
+            <label for="Phone Number">Send to mobile phone: </label>
+            <input type="number" name="Phone Number" id="Phone Number">
+            <br><br>
+            <label for="Email">Send to Email: </label>
+            <input type="email" name="Email" id="Email">
+            <br><br>
+            <input type="submit" value="Generate Nabr Lnk" style="margin-left: 70px; background-color: green;">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
